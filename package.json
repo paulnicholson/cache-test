@@ -1,0 +1,24 @@
+{
+  "name": "cache-test",
+  "version": "0.0.1",
+  "description": "An application to test various cache control headers in search of the holy grail.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulnicholson/cache-test.git"
+  },
+  "author": "Paul Nicholson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulnicholson/cache-test/issues"
+  },
+  "homepage": "https://github.com/paulnicholson/cache-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "slm": "^2.0.0"
+  }
+}

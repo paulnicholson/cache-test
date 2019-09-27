@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+  body
+    javascript:
+      window.onpageshow = function(event) {
+        if (event.persisted) {
+            document.body.style.display = "none";
+            location.reload();
+        }
+      };
+    p Time: ${this.time}
+    p Pageviews: ${this.pageviews}
+    a href="/?rand=${this.rand}" Add Pageview
+
